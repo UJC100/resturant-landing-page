@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reem Kufi", sans-serif !important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.App {
+  min-height: 100vh;
+  width: 75vw;
+  max-width: 1900px;
+  margin: 0rem auto;
+  padding-top: 20px;
+
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #f6f6f6;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 90px;
+}
+
+.links-in-nav{
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+
+.links-in-nav a {
+  text-decoration: none;
+  color: #373737;
+  margin-left: 20px;
+  font-weight: 700;
+}
+.booking-button{
+  padding: 15px 30px 15px 30px;
+  background-color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: .5s;
+  border: none;
+}
+.booking-button:hover {
+  background-color: #e6e5e5;
+}
+.business-logo {
+  cursor: pointer;
+}
+
+
+/* HERO */
+
+.hero-section-container {
+  position: relative;
+  display:flex ;
+  margin-top: 30px;
+}
+
+.home-background-banner {
+  position: absolute;
+  max-width: 720px;
+  top: -250px;
+  right: -200px;
+  z-index: -2;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section-content {
+flex: 1;
+
+}
+.hero-section-content h1{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 73px;
+  color:#4C4C4C;
+;
+}
+.hero-section-content p{
+  font-size: 20px;
+  line-height: 31px;
+  margin: 25px 0;
+  color: #828282;
+;
+}
+
+.hero-section-order-button{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 15px 30px 15px 30px;
+  background-color: #FE9E0D;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: .5s;
+}
+
+.hero-section-order-button:hover{
+  background-color: #ec930c;
+}
+
+.hero-section-image {
+  flex: 1;
+}
+.hero-section-image img {
+  max-width: 550px;
+
+}
