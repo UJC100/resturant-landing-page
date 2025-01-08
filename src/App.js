@@ -4,6 +4,8 @@ import Home from './Components/home';
 import About from './Components/About';
 import Work from './Components/work';
 import Trending from './Components/Trending';
+import Contact from './Components/contact';
+import Footer from './Components/footer';
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Home/>
       <About />
       <Work />
-      <Trending/>
+      {/* <Trending /> */}
+      <Contact />
+      <Footer/>
     </div>
   );
 }

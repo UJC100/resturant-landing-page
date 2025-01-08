@@ -295,7 +295,6 @@ nav {
 /* TRENDING SECTION */
 .trending-container {
   padding-bottom: 6rem;
-
 }
 .trending-content {
   display: flex;
@@ -345,12 +344,10 @@ nav {
   opacity: 0.5;
   transition: transform 0.5s, opacity 0.5s;
 }
-.food-image{
+.food-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
-
 }
 
 .food-card.center-food {
@@ -373,35 +370,33 @@ nav {
   opacity: 1;
 }
 
-
 .circle-indicator {
-    display: flex;
-    position: absolute;
-    right: 37rem;
-    z-index: 2;
+  display: flex;
+  position: absolute;
+  right: 37rem;
+  z-index: 2;
 }
 
 .current-indicator {
-    background-color: #f4880d;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    border: none;
-    outline: none;
-    margin: 0 0.2rem;
-    cursor: pointer;
-    
+  background-color: #f4880d;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
 }
 
 .inactive-indicator {
-    opacity: .4;
+  opacity: 0.4;
 }
 
 .active-rating {
-    color: rgb(255, 136, 0);
+  color: rgb(255, 136, 0);
 }
 .inactive-rating {
-    color: #fff;
+  color: #fff;
 }
 .price {
   position: absolute;
@@ -416,9 +411,82 @@ nav {
   left: 10px;
   z-index: 1;
 }
-.food-rating{
+.food-rating {
   position: absolute;
   top: 280px;
   left: 10px;
   z-index: 1;
+}
+
+
+/* CONTACT US */
+
+.contact-container {
+  padding-bottom: 60px ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contact-header {
+  color: #f4980d;
+}
+.contact-title {
+  font-size: 60px;
+  color: #4c4c4c;
+  width: 70%;
+  margin: auto;
+  padding: 20px 0px 50px 0px;
+}
+.input-container {
+  display: flex;
+  border: 1px solid #fcc573;
+  padding: 8px;
+  border-radius: 30px;
+  background-color: #fff;
+  width: 50%;
+  margin: auto;
+}
+
+.email-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  color: #373737;
+}
+.email-input:focus {
+  outline: none; 
+}
+.form-button {
+  padding: 10px 20px;
+  background-color: #f4980d;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 50px 0px;
+}
+.footer p {
+  color:#373737;
+  transition: text-decoration .3s ease;
+}
+
+.footer p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.social-media {
+  color: #f4980d;
+}
+.social-media span{
+  display: flex;
+  gap: 10px;
+  color: #373737;
+  cursor: pointer;
 }
